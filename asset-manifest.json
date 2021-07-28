@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Gackrey.github.io/static/css/main.9cf138cb.chunk.css",
+    "main.js": "/Gackrey.github.io/static/js/main.06dc51c6.chunk.js",
+    "main.js.map": "/Gackrey.github.io/static/js/main.06dc51c6.chunk.js.map",
+    "runtime-main.js": "/Gackrey.github.io/static/js/runtime-main.1ff5fbbe.js",
+    "runtime-main.js.map": "/Gackrey.github.io/static/js/runtime-main.1ff5fbbe.js.map",
+    "static/js/2.62c54924.chunk.js": "/Gackrey.github.io/static/js/2.62c54924.chunk.js",
+    "static/js/2.62c54924.chunk.js.map": "/Gackrey.github.io/static/js/2.62c54924.chunk.js.map",
+    "index.html": "/Gackrey.github.io/index.html",
+    "static/css/main.9cf138cb.chunk.css.map": "/Gackrey.github.io/static/css/main.9cf138cb.chunk.css.map",
+    "static/js/2.62c54924.chunk.js.LICENSE.txt": "/Gackrey.github.io/static/js/2.62c54924.chunk.js.LICENSE.txt",
+    "static/media/hashnode.e27c9984.png": "/Gackrey.github.io/static/media/hashnode.e27c9984.png",
+    "static/media/home.3f0d9d2b.svg": "/Gackrey.github.io/static/media/home.3f0d9d2b.svg",
+    "static/media/my_pic.59da8ed6.jpg": "/Gackrey.github.io/static/media/my_pic.59da8ed6.jpg",
+    "static/media/resume.99936e27.pdf": "/Gackrey.github.io/static/media/resume.99936e27.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ff5fbbe.js",
+    "static/js/2.62c54924.chunk.js",
+    "static/css/main.9cf138cb.chunk.css",
+    "static/js/main.06dc51c6.chunk.js"
+  ]
+}
