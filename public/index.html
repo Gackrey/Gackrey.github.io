@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="og:title" content="Gaurav's personal portfolio" />
+    <meta name="og:type" content="Test" />
+    <meta name="og:url" content="https://gackrey.netlify.com" />
+    <meta
+      name="og:image"
+      content="https://user-images.githubusercontent.com/36769948/105569775-a02aad00-5d6a-11eb-96c9-c64aac13874c.jpg"
+    />
+    <meta
+      name="og:description"
+      content="This is the personal portfolio website of Gaurav Kumar Dey"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <title>Gaurav Kumar Dey</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+  <script>
+    window.addEventListener("scroll", function () {
+      let header = document.querySelector("nav");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+  </script>
+</html>

@@ -1,0 +1,46 @@
+.sidebar {
+  position: fixed;
+  top: 40%;
+  right: 0;
+}
+.sidebar > li {
+  list-style: none;
+}
+.sidebar > li > a {
+  text-decoration: none;
+}
+.twitter,
+.hashnode,
+.linkedin,
+.github,
+.instagram {
+  padding: 10px;
+  text-align: center;
+}
+.linkedin,
+.github {
+  border-bottom: 1px solid black;
+}
+.linkedin {
+  background-color: #0e76a8;
+}
+.github {
+  background-color: #211f1f;
+}
+.twitter {
+  background-color: #1da1f2;
+}
+.hashnode {
+  background-color: white;
+}
+.instagram {
+  background-color: #cd486b;
+}
+.hashnode-icon {
+  width: 30px;
+  height: 30px;
+}
+.icon {
+  font-size: 26px;
+  color: white;
+}
