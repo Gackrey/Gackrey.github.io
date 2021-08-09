@@ -5,9 +5,7 @@ import Resume from "./resume.pdf";
 export const About = () => {
   return (
     <section id="about">
-      <h1 class="heading" id="abt">
-        About Me
-      </h1>
+      <h1 class="heading">About Me</h1>
       <div class="details">
         <p>
           Hi myself Gaurav Kumar Dey, a final year undergrad from Jorhat
@@ -15,11 +13,10 @@ export const About = () => {
           telecommunication. I am a Full Stack Web Developer with an experience
           of around 1 year working with MERN stack. I have a good knowledge of
           redux, typescript and unit testing which I have also used in few of my
-          projects. Apart from coding I love to play cricket. 
-          I am a quick learner and spend most of my time
-          sitting with VSCode open, working on various projects. Few of my
-          projects are mentioned below with links few available on my github
-          profile <br /> <br />
+          projects. Apart from coding I love to play cricket. I am a quick
+          learner and spend most of my time sitting with VSCode open, working on
+          various projects. Few of my projects are mentioned below with links
+          few available on my github profile <br /> <br />
           <a className="resume" href={Resume} download="">
             Download CV
           </a>

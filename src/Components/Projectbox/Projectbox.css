@@ -1,0 +1,39 @@
+.card {
+  margin: 20px;
+  box-shadow: 0 0 6px 0px black;
+  width: 300px;
+  height: fit-content;
+  background-color: var(--alternate-background-colour);
+}
+.card-image {
+  max-width: 300px;
+}
+.card-body {
+  margin: 5px 10px;
+  padding: 5px 10px;
+}
+.card-body > h2 {
+  text-align: center;
+}
+.card-body > p {
+  text-align: start;
+}
+.projectbutton {
+  text-decoration: none;
+  background-color: var(--btn-color-1);
+  margin: 10px 0;
+  width: 100%;
+  text-align: center;
+  color: var(--btn-text);
+  padding: 8px;
+  font-size: 16px;
+  display: block;
+  border-radius: 7px;
+  border: none;
+  border: 1px solid transparent;
+}
+.projectbutton:hover{
+  background-color: var(--background-color);
+  color: var(--btn-color-1);
+  border-color:  var(--btn-color-1);
+}

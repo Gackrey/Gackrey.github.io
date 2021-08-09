@@ -2,6 +2,7 @@
   position: fixed;
   top: 40%;
   right: 0;
+  z-index: 2;
 }
 .sidebar > li {
   list-style: none;
