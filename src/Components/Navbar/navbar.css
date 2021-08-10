@@ -98,8 +98,8 @@ nav ul li {
   nav ul {
     display: block;
     position: absolute;
-    top: 50px;
-    background: black;
+    top: 4rem;
+    background-color: var(--nav-bg);
     width: 70vw;
     height: 100vh;
     left: -70vw;
@@ -118,8 +118,8 @@ nav ul li {
   .navbar.sticky {
     background-color: black;
   }
-  .navbar.sticky ul li a {
-    color: white;
+  .navbar.sticky ul li a, .navbar ul li a{
+    color: var( --btn-text);
   }
   .navbar .burgerbox {
     display: block;

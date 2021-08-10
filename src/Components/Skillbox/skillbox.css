@@ -1,0 +1,76 @@
+.skill .decoration {
+  display: flex;
+}
+.skill .decoration .skill-name {
+  width: 128px;
+}
+.skill .decoration .status {
+  background-color: rgb(218, 204, 204);
+  border-radius: 10px;
+  width: 100%;
+  height: 12px;
+  margin-top: 3px;
+}
+.skill .decoration .status .statusbar-html {
+  background: linear-gradient(45deg, rgb(13, 216, 206), rgb(97, 9, 156));
+  border-radius: 10px;
+  height: 100%;
+}
+.skill .decoration .status .statusbar-css {
+  background: linear-gradient(45deg, rgb(204, 218, 8), rgb(218, 14, 184));
+  border-radius: 10px;
+  height: 100%;
+}
+.skill .decoration .status .statusbar-react {
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgb(38, 248, 18), rgb(8, 216, 154));
+  height: 100%;
+}
+.skill .decoration .status .statusbar-redux {
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgb(18, 248, 198), rgb(216, 202, 8));
+  height: 100%;
+}
+.skill .decoration .status .statusbar-typescript {
+  background: linear-gradient(45deg, rgb(250, 28, 250), rgb(67, 19, 122));
+  border-radius: 10px;
+  height: 100%;
+}
+.skill .decoration .status .statusbar-javascript {
+  background: linear-gradient(45deg, rgb(83, 248, 68), rgb(8, 22, 216));
+  border-radius: 10px;
+  height: 100%;
+}
+.skill .decoration .status .statusbar-node {
+  background: linear-gradient(45deg, rgb(204, 218, 8), rgb(218, 14, 184));
+  border-radius: 10px;
+  height: 100%;
+}
+.skill .decoration .status .statusbar-mysql {
+  background: linear-gradient(45deg, rgb(83, 248, 68), rgb(8, 22, 216));
+  border-radius: 10px;
+  height: 100%;
+}
+.skill .decoration .status .statusbar-mongo {
+  background: linear-gradient(45deg, rgb(13, 216, 206), rgb(97, 9, 156));
+  border-radius: 10px;
+  height: 100%;
+}
+.skill .decoration .status .statusbar-rest {
+  background: linear-gradient(45deg, rgb(38, 248, 18), rgb(8, 216, 154));
+  border-radius: 10px;
+  height: 100%;
+}
+.skill .decoration .status .statusbar-express {
+  background: linear-gradient(45deg, rgb(250, 28, 250), rgb(67, 19, 122));
+  border-radius: 10px;
+  height: 100%;
+}
+.skill .decoration .status .statusbar-flask {
+  background: linear-gradient(45deg, rgb(250, 28, 58), rgb(76, 19, 122));
+  border-radius: 10px;
+  height: 100%;
+}
+.skill .decoration span {
+  margin: 0 12px;
+}

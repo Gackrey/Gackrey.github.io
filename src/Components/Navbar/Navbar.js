@@ -34,16 +34,16 @@ export const Navbar = () => {
       <h1>GKD</h1>
       <ul className="navelem">
         <li>
-          <a href="#home">Home</a>
+          <a href="#home" onClick={mobileNavHandler}>Home</a>
         </li>
         <li>
-          <a href="#about">About Me</a>
+          <a href="#about" onClick={mobileNavHandler}>About Me</a>
         </li>
         <li>
-          <a href="#project">Projects</a>
+          <a href="#project" onClick={mobileNavHandler}>Projects</a>
         </li>
         <li>
-          <a href="#skills">Skills</a>
+          <a href="#skills" onClick={mobileNavHandler}>Skills</a>
         </li>
       </ul>
       <div className="darkmode" onClick={themeHandler}>

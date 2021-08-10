@@ -11,6 +11,8 @@ html[data-theme="light"] {
   --btn-color: #d9239f;
   --btn-text: #fff;
   --btn-color-1: #4928de;
+  --nav-bg: #000000;
+  --skill-box-shadow: grey;
 }
 html[data-theme="dark"] {
   --background-color: #212a2e;
@@ -19,4 +21,6 @@ html[data-theme="dark"] {
   --btn-color: #d9239f;
   --btn-text: black;
   --btn-color-1: #61dafb;
+  --nav-bg: #f7f8f8;
+  --skill-box-shadow: black;
 }

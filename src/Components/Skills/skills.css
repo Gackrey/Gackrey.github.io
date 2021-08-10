@@ -1,0 +1,48 @@
+#skills {
+  padding-top: 70px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: 0.7s;
+}
+#skills h1 {
+  padding: 20px 0px;
+}
+.skill-cards {
+  width: 80%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+}
+.skill-cards .info-box {
+  background-color: var(--alternate-background-colour);
+  margin: 10px;
+  padding: 8px;
+}
+.skill-cards .info-box h2 {
+  text-align: center;
+  padding: 5px;
+  font-family: "Epilogue", sans-serif;
+}
+.skill-cards .info-box p {
+  padding: 10px;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+.skill-cards .info-box .frontend,
+.backend {
+  margin: 20px 0;
+}
+.skill {
+  padding: 10px 5px;
+  margin: 10px;
+  box-shadow: 0px 10px 18px 1px var(--skill-box-shadow);
+}
+@media only screen and (max-width: 768px) {
+  .skill-cards {
+    width: 100%;
+    display: block;
+  }
+  .skill-cards .info-box:last-child {
+    margin-bottom: 0px;
+  }
+}
