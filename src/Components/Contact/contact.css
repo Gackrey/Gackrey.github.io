@@ -1,0 +1,46 @@
+#contact {
+  color: var(--text-color);
+  transition: 0.7s;
+  scroll-margin-top: 4rem;
+  background-color: var(--background-color);
+}
+label,
+input {
+  color: var(--text-color);
+  display: block;
+  width: -webkit-fill-available;
+  font-size: 18px;
+}
+label {
+  margin: 10px 0;
+}
+input {
+  padding: 5px 10px;
+}
+textarea {
+  width: -webkit-fill-available;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+.contact-form {
+  margin: auto;
+  width: 33%;
+  padding: 10px;
+  border: 2px solid var(--text-color);
+}
+.result {
+  color: green;
+  font-size: 18px;
+  text-align: center;
+  margin: 10px 0;
+  font-weight: bold;
+}
+.bold {
+  font-weight: bold;
+  font-size: 18px;
+}
+@media only screen and (max-width: 688px) {
+  .contact-form {
+    width: 85%;
+  }
+}

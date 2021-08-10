@@ -45,6 +45,9 @@ export const Navbar = () => {
         <li>
           <a href="#skills" onClick={mobileNavHandler}>Skills</a>
         </li>
+        <li>
+          <a href="#contact" onClick={mobileNavHandler}>Contact Me</a>
+        </li>
       </ul>
       <div className="darkmode" onClick={themeHandler}>
         <div className="coverarea"></div>
