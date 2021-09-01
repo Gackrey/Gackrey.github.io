@@ -6,15 +6,16 @@
 }
 label,
 input {
-  color: var(--text-color);
   display: block;
   width: -webkit-fill-available;
   font-size: 18px;
 }
 label {
+  color: var(--text-color);
   margin: 10px 0;
 }
 input {
+  color: black;
   padding: 5px 10px;
 }
 textarea {

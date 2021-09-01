@@ -8,7 +8,7 @@ export const About = () => {
       <h1 class="heading">About Me</h1>
       <div class="details">
         <p>
-          Hi myself Gaurav Kumar Dey, a final year undergrad from Jorhat
+          Hi myself Gourav Kumar Dey, an engineering graduate from Jorhat
           Institute of Science and Technology with major in Electronics and
           telecommunication. I am a Full Stack Web Developer with an experience
           of around 1 year working with MERN stack. I have a good knowledge of
