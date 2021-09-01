@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import MyPic from "./my_pic.jpg";
-import Resume from "./resume.pdf";
+import Resume from "./gouravkumardey_yop2021.pdf";
 export const About = () => {
   return (
     <section id="about">
@@ -24,7 +24,7 @@ export const About = () => {
             className="resume"
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/12QtEn6Ml1ldfZkU1wUBFbqavQ3xgFw2t/view"
+            href="https://drive.google.com/file/d/1SQlNdHAbTkidCYwIfmUW_a8beOAanZP6/view"
           >
             View CV
           </a>

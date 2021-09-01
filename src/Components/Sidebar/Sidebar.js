@@ -41,6 +41,11 @@ export const Sidebar = () => {
           <i className="fab fa-twitter icon"></i>
         </a>
       </li>
+      <li className="whatsapp">
+        <a href="https://wa.me/+918399013513" target="_blank" rel="noreferrer">
+        <i className="fab fa-whatsapp icon"></i>
+        </a>
+      </li>
     </div>
   );
 };

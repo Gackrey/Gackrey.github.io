@@ -4,6 +4,7 @@ import {
   Home,
   About,
   Projects,
+  Blogs,
   Skills,
   Contact,
   Sidebar,
@@ -17,6 +18,7 @@ function App() {
       <Home />
       <About />
       <Projects />
+      <Blogs />
       <Skills />
       <Contact />
       <Footer />

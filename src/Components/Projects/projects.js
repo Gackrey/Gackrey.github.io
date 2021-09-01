@@ -8,7 +8,7 @@ import { ProjectData, responsive } from "./data";
 export const Projects = () => {
   return (
     <div id="project">
-      <h1 class="heading">Projects</h1>
+      <h1 className="heading">Projects</h1>
       <OwlCarousel className="owl-theme" responsive={responsive}>
         {ProjectData.map((item) => (
           <Projectbox

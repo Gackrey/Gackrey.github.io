@@ -1,5 +1,6 @@
 export { Home } from "./Home/home";
 export { Projects } from "./Projects/projects";
+export { Blogs } from "./Blogs/Blogs";
 export { Skills } from "./Skills/skills";
 export { Contact } from "./Contact/contact";
 export { About } from "./About/about";
