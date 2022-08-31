@@ -1,6 +1,5 @@
 #home {
   height: 93vh;
-  background-color: var(--background-color);
   scroll-margin-top: 4rem;
   transition: 0.7s;
   color: var(--text-color);

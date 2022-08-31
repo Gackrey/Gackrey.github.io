@@ -1,9 +1,8 @@
 .card {
   margin: 20px;
-  box-shadow: 0 0 6px 0px black;
+  box-shadow:var( --box-shadow);
   width: 300px;
   height: fit-content;
-  background-color: var(--alternate-background-colour);
 }
 .card-image {
   max-width: 300px;

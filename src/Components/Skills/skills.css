@@ -1,6 +1,5 @@
 #skills {
   padding-top: 70px;
-  background-color: var(--background-color);
   color: var(--text-color);
   transition: 0.7s;
 }
@@ -8,7 +7,6 @@
   padding: 20px 0px;
 }
 .skill-cards {
-  width: 80%;
   display: grid;
   margin: auto;
   grid-template-columns: repeat(2, 1fr);

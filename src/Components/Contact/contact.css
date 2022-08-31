@@ -2,7 +2,6 @@
   color: var(--text-color);
   transition: 0.7s;
   scroll-margin-top: 4rem;
-  background-color: var(--background-color);
 }
 label,
 input {

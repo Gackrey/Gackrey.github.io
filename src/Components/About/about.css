@@ -3,10 +3,8 @@
   color: var(--text-color);
   transition: 0.7s;
   scroll-margin-top: 3rem;
-  background-color: var(--background-color);
 }
 #about .details {
-  width: 80%;
   display: flex;
   margin: auto;
 }

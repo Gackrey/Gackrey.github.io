@@ -3,7 +3,7 @@ import "./home.css";
 import DevSvg from "./home.svg";
 export const Home = () => {
   return (
-    <section id="home">
+    <section id="home" className="container">
       <div className="txtbox">
         <h2>
           Hello I'm <br />

@@ -1,5 +1,5 @@
 import React from "react";
-import "../Projectbox/Projectbox.css";
+import "../Projects/Projectbox/Projectbox.css";
 export const Blogbox = ({ image, heading, source }) => {
   return (
     <div className="card item">

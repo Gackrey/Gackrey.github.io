@@ -8,7 +8,7 @@ import {
   Skills,
   Contact,
   Sidebar,
-  Footer,
+  Footer
 } from "./Components";
 function App() {
   return (

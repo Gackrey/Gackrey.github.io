@@ -5,6 +5,7 @@
   scroll-behavior: smooth;
 }
 html[data-theme="light"] {
+  --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   --background-color: #f0f0f0;
   --alternate-background-colour: #f7f7f9;
   --text-color: rgba(18, 20, 22, 0.85);
@@ -15,6 +16,7 @@ html[data-theme="light"] {
   --skill-box-shadow: grey;
 }
 html[data-theme="dark"] {
+  --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   --background-color: #212a2e;
   --alternate-background-colour: #263238;
   --text-color: #f7f8f8;
@@ -23,4 +25,18 @@ html[data-theme="dark"] {
   --btn-color-1: #61dafb;
   --nav-bg: #f7f8f8;
   --skill-box-shadow: black;
+}
+
+.App {
+  background-color: var(--background-color);
+}
+.container {
+  width: 1120px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
 }

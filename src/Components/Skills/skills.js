@@ -1,10 +1,10 @@
 import React from "react";
 import "./skills.css";
 import { frontEnd, backEnd } from "./skillData";
-import { Skillbox } from "../Skillbox/skillbox";
+import { Skillbox } from "./Skillbox";
 export const Skills = () => {
   return (
-    <section id="skills">
+    <section id="skills" className="container">
       <h1 className="heading">Technical Skills</h1>
       <div className="skill-cards">
         <div className="info-box">

@@ -6,7 +6,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 export const Blogs = () => {
   return (
-    <div id="blogs">
+    <div id="blogs" className="container">
       <h1 className="heading">Blogs</h1>
       <OwlCarousel className="owl-theme" responsive={responsive}>
         {BlogData.map((blog) => (
