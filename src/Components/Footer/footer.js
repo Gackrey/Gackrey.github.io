@@ -1,9 +1,10 @@
 import React from "react";
-import "./footer.css"
+import "./footer.css";
 export const Footer = () => {
+  const date = new Date();
   return (
     <div className="footer">
-      Copyrights © 2021 Gourav Kumar Dey. All rights reserved.
+      Copyrights © {date.getFullYear()} Gourav Kumar Dey. All rights reserved.
     </div>
   );
 };
